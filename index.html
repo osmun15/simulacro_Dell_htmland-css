@@ -23,9 +23,9 @@ Fecha: 03/04/2024 */ -->
     <link rel="stylesheet" href="./src/css/style.css">
     <title>EcoMedellin</title>
 </head>
-
+<!-- se crea la respectiva semantica en el body, se agrega titulo y barra de navegacion -->
 <body>
-    <header>
+    <header class="header">
 
         <h1 class="titulo">EcoMedellin</h1>
 
@@ -36,7 +36,7 @@ Fecha: 03/04/2024 */ -->
             </a>
 
             <a href="#jardines">
-                <i class="bi bi-cloud-sun"></i>
+                <i class="bi bi-cloud-sun-fill"></i>
                 <span>Jardines</span>
             </a>
 
@@ -48,15 +48,43 @@ Fecha: 03/04/2024 */ -->
         </nav>
 
     </header>
-
-    <main>
+<!-- comienzo ingresando la imagen principal en la primera seccion -->
+    <main class="main">
         <section class="contenedor_1">
             <img id="imagen-contenedor_1" src="./public/img/imagen1.webp" alt="medellin_ecologico_1">
             <article class="texto-contenedor_1">
                 <h1>Explora La Belleza Natural De Medellin</h1>
                 <p>Descubre por que los puntos verdes, parques y areas naturales son tan importantes para la ciudad de
-                Medellin. Sumergete en la biodiversidad unica que ofrecen estos espacios y disfruta de la conexion con
-                la naturaleza en tu vida diaria.</p>
+                    Medellin. Sumergete en la biodiversidad unica que ofrecen estos espacios y disfruta de la conexion
+                    con
+                    la naturaleza en tu vida diaria.</p>
+            </article>
+        </section>
+        <section class="contenedor_2">
+            <article class="texto-contenedor_2">
+                <h2>Parque Arvi</h2>
+                <p>si lo que buscas es una tarde con un poco mas de aventura, el parque arvi es el lugar a donde debes
+                    ir. Hay tantas actividades al aire libre que te sera dificilelegir entre ellas:puedes armar un
+                    picni, disfrutar de un trayecto en bicicletra, participar un pcoo de senderismo, ver varias especies
+                    de aves o pasar una tarde sembrando arboles. Es sin duda un lugar para quienes disfrutan al maximo
+                    la naturaleza.</p>
+                    <h3>
+                        <i class="bi bi-calendar-event-fill"></i>
+                        <span>Horario</span>
+                    </h3>
+                    <p>abierto de lunes a domingo de 8:00 a.m a 6:00 p.m</p>
+                    <br>
+                    <h3 id="ubicacion">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span>Ubicacion</span>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8733479967027!2d-75.50522532511472!3d6.280376525941091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442641a4ea9d53%3A0x33ed6dc5217b782c!2sParque%20Arv%C3%AD!5e0!3m2!1ses-419!2sco!4v1712169706411!5m2!1ses-419!2sco" width="170" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </h3>
+                    <br>
+            </article>
+            <article class="imagen-contenedor_2">
+                <img src="./public/img/imagen2.webp" alt="">
+                <img src="./public/img/imagen3.webp" alt="">
+                <img src="./public/img/imagen4.webp" alt="">
             </article>
         </section>
     </main>
